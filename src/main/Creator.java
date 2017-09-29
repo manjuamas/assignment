@@ -27,7 +27,7 @@ public class Creator implements Runnable {
 	 *            List of sockets of the monitor
 	 */
 	public Creator(Service service) {
-		this.logger = Logger.getLogger(service.getName());
+		this.logger = Logger.getLogger(this.getClass());
 		this.service = service;
 		run();
 	}
