@@ -1,5 +1,6 @@
 # assignment
 
+
 1."SocketServer" class can be used to open a TCP connection. You can set a value for the port and open a connection.
 
 2. Or run "netstat -an" on a Windows Command Prompt or "netstat -lntu" on a Linux Terminal to check the available TCP ports 
